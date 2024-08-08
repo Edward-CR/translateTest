@@ -4,7 +4,7 @@ phrase:
   
   push:
     sources:
-    - file: ch.yml
+    - file: zh.yml
       params:
         locale_id: zh
         update_translations: true
@@ -23,7 +23,7 @@ phrase:
           override_file_language: false
   pull:
     targets:
-    - file: ch.yml
+    - file: zh.yml
       params:
         file_format: yml
         locale_id: zh
