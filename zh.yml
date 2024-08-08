@@ -6,3 +6,9 @@ zh:
           calculating:
             mobile:
               ftp: random string 1
+    backing up:
+      bluetooth:
+        back up:
+          array:
+            ram:
+              '581173': random string 2
