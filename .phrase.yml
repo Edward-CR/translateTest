@@ -9,7 +9,7 @@ phrase:
         locale_id: zh
         update_translations: true
         update_descriptions: false
-        encoding: UTF-8 
+        encoding: "UTF-8" 
   pull:
     targets:
     - file: zh.yml
@@ -20,7 +20,7 @@ phrase:
         exclude_empty_zero_forms: false 
         include_translated_keys: true 
         keep_notranslate_tags: false 
-        encoding: UTF-8 
+        encoding: "UTF-8"
         include_unverified_translations: true 
         use_last_reviewed_version: false 
         fallback_locale_id: zh
