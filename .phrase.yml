@@ -9,6 +9,7 @@ phrase:
         locale_id: zh
         update_translations: true
         update_descriptions: false
+        encoding: UTF-8 
   pull:
     targets:
     - file: zh.yml
@@ -22,19 +23,4 @@ phrase:
         encoding: UTF-8 
         include_unverified_translations: true 
         use_last_reviewed_version: false 
-        fallback_locale_id: ch
-        #-------------
-        format_options:
-          enclose_in_cdata: false
-          include_translation_state: false
-          indent_size: 4
-          indent_style: space
-          delimit_placeholders: false
-          convert_placeholder: false
-          include_pluralized_keys: false
-          export_tags: false
-          export_max_characters_allowed: false
-          escape_linebreaks: false
-          escape_single_quotes: false
-          omit_separator_space: false
-          crlf_line_terminators: false
+        fallback_locale_id: zh
