@@ -9,18 +9,6 @@ phrase:
         locale_id: zh
         update_translations: true
         update_descriptions: false
-        skip_upload_tags: false
-        skip_unverification: false
-        file_encoding: "UTF-8"
-        autotranslate: false
-        mark_reviewed: false
-        #-------------
-        format_options:
-          ignore_source_translations: false
-          ignore_target_translations: false
-          msgid_as_default: false
-          strip_placeholder_delimiters: false
-          override_file_language: false
   pull:
     targets:
     - file: zh.yml
