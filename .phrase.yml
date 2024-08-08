@@ -15,17 +15,33 @@ phrase:
         skip_upload_tags: false
         autotranslate: false
         mark_reviewed: false
+        skip_unverification: false
+       #-------------
+        format_options:
+          ignore_source_translations: false
+          ignore_target_translations: false
+          msgid_as_default: false
+          strip_placeholder_delimiters: false
+          override_file_language: false
+          header_content_row: false
+          enable_pluralization: true
+          unescape_linebreaks: false
+          escape_single_quotes: false
+          escape_meta_chars: true
+          enable_pluralization: true
+
+          
   pull:
     targets:
     - file: zh.yml
       params:
         file_format: yml
         locale_id: zh
-        include_empty_translations: false 
-        exclude_empty_zero_forms: false 
-        include_translated_keys: true 
-        keep_notranslate_tags: false 
+        include_empty_translations: false
+        exclude_empty_zero_forms: false
+        include_translated_keys: true
+        keep_notranslate_tags: false
         encoding: "UTF-8"
-        include_unverified_translations: true 
-        use_last_reviewed_version: false 
+        include_unverified_translations: true
+        use_last_reviewed_version: false
         fallback_locale_id: zh
