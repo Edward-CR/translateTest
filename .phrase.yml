@@ -16,19 +16,6 @@ phrase:
         autotranslate: false
         mark_reviewed: false
         skip_unverification: false
-       #-------------
-        format_options:
-          ignore_source_translations: false
-          ignore_target_translations: false
-          msgid_as_default: false
-          strip_placeholder_delimiters: false
-          override_file_language: false
-          header_content_row: false
-          enable_pluralization: true
-          unescape_linebreaks: false
-          escape_single_quotes: false
-          escape_meta_chars: true
-          enable_pluralization: true
   pull:
     targets:
     - file: zh.yml
