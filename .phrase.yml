@@ -1,7 +1,7 @@
 phrase:
   access_token: d66d8f7503e52435d8e2e0e2509edf4c4f049190c3cf3d12620fc71872d0f7ac
   project_id: 9a79f9493ac786469bd1154c8e25e68d
-  file_format: yml 
+  file_format: yml
   
   push:
     sources:
@@ -30,7 +30,6 @@ phrase:
           escape_meta_chars: true
           enable_pluralization: true
 
-          
   pull:
     targets:
     - file: zh.yml
