@@ -1,13 +1,13 @@
 phrase:
-  access_token: ACCESS_TOKEN #Add your personal access token to authenticate, you can find the steps on how to create one here: https://help.phrase.com/help/access-tokens
-  project_id: PROJECT_ID #The public Project ID which can be found in the Project Settings (API tab)
-  file_format: FORMAT_API_EXTENSION #Find the format you want to use here: https://help.phrase.com/help/supported-platforms-and-formats , access the article and copi the API extension
+  access_token: a2e9223e4f4742cfca2bf46ce2e86cdd9b5e40fa3048eb338f40f5d46f96e885 #Add your personal access token to authenticate, you can find the steps on how to create one here: https://help.phrase.com/help/access-tokens
+  project_id: 8b2e6596c14fa7eb10c1c2d65e8e3171 #The public Project ID which can be found in the Project Settings (API tab)
+  file_format: i18next #Find the format you want to use here: https://help.phrase.com/help/supported-platforms-and-formats , access the article and copi the API extension
   
   push:
     sources:
     - file: ./path/to/file/file.format #Provide the path to the file(s) you want to push here, starting from the location of the configuration file. You can use the placeholders <locale_name>, <locale_code> and <tags> in the path or file-name
       params:
-        file_format: FORMAT_API_EXTENSION (string) #See above. Only required if you deviate from the default format set in the header
+        file_format: i18next (string) #See above. Only required if you deviate from the default format set in the header
         locale_id: LOCALE_ID (string) #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
         tags: TAG_1,TAG_2 (string) #List of tags separated by comma to be associated with the new keys contained in the upload.
         update_translations: false (boolean) #Indicates whether existing translations should be updated with the file content.
@@ -41,7 +41,7 @@ phrase:
     targets:
     - file: ./Radio.de/<locale_code>.lproj/Localizable.strings
       params:
-        file_format: strings
+        file_format: i18next
         locale_id: LOCALE_ID (string) #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
         tags: TAG_1, TAG_2 (string) #Limit results to keys tagged with a list of comma separated tag names.
         include_empty_translations: false (boolean) #Indicates whether keys without translations should be included in the output as well.
