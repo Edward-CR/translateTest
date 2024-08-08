@@ -11,7 +11,7 @@ phrase:
         locale_id: zh
         update_translations: true
         update_descriptions: false
-        file_encoding: "UTF-8" 
+        file_encoding: "UTF-8"
         skip_upload_tags: false
         autotranslate: false
         mark_reviewed: false
@@ -29,7 +29,6 @@ phrase:
           escape_single_quotes: false
           escape_meta_chars: true
           enable_pluralization: true
-
   pull:
     targets:
     - file: zh.yml
