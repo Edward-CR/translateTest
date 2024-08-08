@@ -6,10 +6,14 @@ phrase:
     sources:
     - file: zh.yml
       params:
+        file_format: yml
         locale_id: zh
         update_translations: true
         update_descriptions: false
-        encoding: "UTF-8" 
+        file_encoding: "UTF-8" 
+        skip_upload_tags: false
+        autotranslate: false
+        mark_reviewed: false
   pull:
     targets:
     - file: zh.yml
