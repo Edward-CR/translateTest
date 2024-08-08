@@ -6,7 +6,7 @@ phrase:
     sources:
     - file: ch.yml
       params:
-        locale_id: ch
+        locale_id: zh
         update_translations: true
         update_descriptions: false
         skip_upload_tags: false
@@ -26,7 +26,7 @@ phrase:
     - file: ch.yml
       params:
         file_format: yml
-        locale_id: ch
+        locale_id: zh
         include_empty_translations: false 
         exclude_empty_zero_forms: false 
         include_translated_keys: true 
