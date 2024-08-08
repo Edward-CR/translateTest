@@ -5,7 +5,7 @@ phrase:
   
   push:
     sources:
-    - file: ./path/to/file/file.format #Provide the path to the file(s) you want to push here, starting from the location of the configuration file. You can use the placeholders <locale_name>, <locale_code> and <tags> in the path or file-name
+    - file: ./locals/test/translaations.json #Provide the path to the file(s) you want to push here, starting from the location of the configuration file. You can use the placeholders <locale_name>, <locale_code> and <tags> in the path or file-name
       params:
         file_format: i18next (string) #See above. Only required if you deviate from the default format set in the header
         locale_id: LOCALE_ID (string) #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
@@ -39,7 +39,7 @@ phrase:
           enable_pluralization: true (boolean) #Simple/Nested JSON only. Enables detection of pluralized keys. All matching keys will be persisted as pluralized keys.
   pull:
     targets:
-    - file: ./Radio.de/<locale_code>.lproj/Localizable.strings
+    - file: ./locals/test/translaations.json
       params:
         file_format: i18next
         locale_id: LOCALE_ID (string) #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
